@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var mondayArr = []
+        var tuesdayArr = []
+        var wednesdayArr = []
+        var thursdayArr = []
+        var fridayArr = []
+        var index = 1
+        window.onload = function(){
+            let array = '{{data | safe}}';
+            let jsonOrg = JSON.parse(array)
+            console.log(jsonOrg)
+            let jsonArr = jsonOrg["normal"]
+            let jsonSpc = jsonOrg["special"] 
+
+            let monday = document.getElementById("monday")
+            let tuesday = document.getElementById("tuesday")
+            let wednesday = document.getElementById("wednesday")
+            let thursday = document.getElementById("thursday")
+            let friday = document.getElementById("friday")
+
+
+            // Fixating order
+            for(i in jsonArr[0]){
+                fixation(jsonArr, jsonSpc)
+            }
+            
+            console.log(mondayArr)
+
+            for(i in jsonArr){
+                for(o in jsonArr[i]){
+                    buildList(jsonArr[i][o]["lesson"], i)
+                }
+            }
+
+            function buildList(txt, i){
+                let li = document.createElement("li")
+                li.innerHTML = txt
+                if(i==0){
+                    monday.appendChild(li)
+                }else if(i==1){
+                    tuesday.appendChild(li)
+                }else if(i==2){
+                    wednesday.appendChild(li)
+                }else if(i==3){
+                    thursday.appendChild(li)
+                }else if(i==4){
+                    friday.appendChild(li)
+                }
+            }
+        }
+
+        function fixation(jsonArr, jsonSpc){
+            let i=0
+            let found = false;
+            for(o in jsonArr[i]){
+                if(index >7){
+                    return;
+                }
+                let elem = jsonArr[i][o]["hour"]
+                let elemP = jsonArr[i][o]
+                if(elem == index && !found){
+                    console.log("FOUND: Day:" + i + ", index: " + index)
+                    if(jsonArr[i][o]["double"] == "1"){
+                        console.log("DOUBLE")
+                        let newArrStr = JSON.stringify(jsonArr);
+                        let newArr = JSON.parse(newArrStr)
+                        let hourExtra = parseInt(jsonArr[i][o]["hour"]) + 1
+                        newArr[i][o]["hour"] = String(hourExtra)
+                        let elemPP = newArr[i][o]
+                        if(i==0){
+                            mondayArr.push(elemP)
+                            mondayArr.push(elemPP)
+                        }else if(i==1){
+                            tuesdayArr.push(elemP)
+                            tuesdayArr.push(elemPP)
+                        }else if(i==2){
+                            wednesdayArr.push(elemP)
+                            wednesdayArr.push(elemPP)
+                        }else if(i==3){
+                            thursdayArr.push(elemP)
+                            thursdayArr.push(elemPP)
+                        }else if(i==4){
+                            fridayArr.push(elemP)
+                            fridayArr.push(elemPP)
+                        }
+                        index++
+                        found = true
+                    }else{
+                        if(i==0){
+                            mondayArr.push(elemP)
+                        }else if(i==1){
+                            tuesdayArr.push(elemP)
+                        }else if(i==2){
+                            wednesdayArr.push(elemP)
+                        }else if(i==3){
+                            thursdayArr.push(elemP)
+                        }else if(i==4){
+                            fridayArr.push(elemP)
+                        }
+                        index++
+                        found = true
+                    }
+                }else{
+                    console.log(jsonSpc[i][o]["hour"] == index)
+                    let elemS = jsonSpc[i][o]
+                    if(i==0){
+                            mondayArr.push(elemS)
+                        }else if(i==1){
+                            tuesdayArr.push(elemS)
+                        }else if(i==2){
+                            wednesdayArr.push(elemS)
+                        }else if(i==3){
+                            thursdayArr.push(elemS)
+                        }else if(i==4){
+                            fridayArr.push(elemS)
+                        }
+                        index++
+                        found = true
+                }
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Monday</h1>
+            <ol id="monday"></ol>
+        </div>
+        <div>
+            <h1>Tuesday</h1>
+            <ol id="tuesday"></ol>
+        </div>
+        <div>
+            <h1>Wednesday</h1>
+            <ol id="wednesday"></ol>
+        </div>
+        <div>
+            <h1>Thursday</h1>
+            <ol id="thursday"></ol>
+        </div>
+        <div>
+            <h1>Friday</h1>
+            <ol id="friday"></ol>
+        </div>
+    </div>
+</body>
+</html>

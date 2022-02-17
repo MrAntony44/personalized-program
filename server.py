@@ -1,13 +1,26 @@
 from flask import Flask, render_template
+from flask import request
 app = Flask(__name__)
 from openpyxl import Workbook
 from openpyxl import load_workbook
 import json
+import asyncio
 
-si = "Β5"
+aClasses = ["Α1", "Α2", "Α3", "Α4", "Α5"]
+bClasses = ["Β1", "Β2", "Β3", "Β4", "Β5"]
+cClasses = ["Γ1", "Γ2", "Γ3", "Γ4", "Γ5"]
+sClasses = ["Γθετ1", "Γθετ2", "Γοικ1", "Γοικ2", "Γυγείας", "Γανθρ", "Βθετ1", "Βθετ2", "Βθετ3", "Βθετ4", "Βανθρ1", "Βανθρ2"]
+
+classes = aClasses + bClasses + cClasses + sClasses
 
 wb = load_workbook("test.xlsx", data_only=True)
 ws1 = wb["Εκπαιδευτικοί"]
+
+ls0 = []
+ls1 = []
+ls2 = []
+ls3 = []
+ls4 = []
 
 lastRow = 73
 lastColumn = 36
@@ -18,8 +31,7 @@ lastColumn = 36
 # 23-29 its thursday
 # 30-36 its friday
 
-def mainFunction():
-        
+def mainFunction(si):
     ls0 = []
     ls1 = []
     ls2 = []
@@ -59,26 +71,51 @@ def mainFunction():
                 elif day==4:
                     ls4.append(obj)
                 count +=1
+    lsF = {
+        si: {
+            "Monday": ls0,
+            "Tuesday": ls1,
+            "Wednesday": ls2,
+            "Thursday": ls3,
+            "Friday": ls4
+        }
+    }
+    print(lsF)
+    file_object = open('data.json', 'a', encoding='utf8')
+    file_object.write(json.dumps(lsF, ensure_ascii=False))
 
+    print("done")
 
-        print(count)
-        print(ls0)
-        print(ls1)
-        print(ls2)
-        print(ls3)
-        print(ls4)
+def generateProgramJson():
+    file_object = open('data.json', 'w', encoding='utf8')
+    file_object.write(json.dumps('', ensure_ascii=False))
+    for i in classes:
+        mainFunction(i)
 
 
 @app.route('/')
 def index():
-  return render_template('index.html')
+    # mainFunction()
+    return render_template("index.html")
+  
 
-@app.route('/run')
-def my_link():
-  print ('I got clicked!')
-  mainFunction()
+@app.route('/update')
+async def update():
+  print ('updated json')
+  generateProgramJson()
+  return 'update done'
 
-  return 'Click.'
+@app.route('/find')
+async def find():
+    uClass = request.args.get('class')
+    special = request.args.get('special')
+
+    a_file = open("data.json", "r", encoding='utf8')
+    # json_object = json.load(a_file)
+    a_file.close()
+    # print(json_object)
+    return 'update done'
+
 
 if __name__ == '__main__':
   app.run(debug=True)
