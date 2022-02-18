@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='interface.css')}}">
+
     <script>
         var mondayArr = []
         var tuesdayArr = []
@@ -23,144 +25,406 @@
             let wednesday = document.getElementById("wednesday")
             let thursday = document.getElementById("thursday")
             let friday = document.getElementById("friday")
+            
+            let args = '{{args | safe}}'
+            let argsJ = JSON.parse(args)
+            let classArg = argsJ["class"]
+            let specialArg = argsJ["special"]
 
+            let title = document.getElementById("title")
+            let cl1 = document.getElementById("cl1")
+            let cl2 = document.getElementById("cl2")
 
+            cl1.innerHTML = "ΤΜΗΜΑ: " + classArg
+            if(specialArg == "none"){
+                specialArg = "--"
+            }
+            cl2.innerHTML = "ΚΑΤ: " + specialArg
+            if(specialArg != "--"){
+                document.title = "ΠΡΟΓΡΑΜΜΑ - " + classArg + " - " + specialArg
+            }else{
+                document.title = "ΠΡΟΓΡΑΜΜΑ - " + classArg
+            }
             // Fixating order
             for(a in jsonArr){
                 index = 1
-                for(i in jsonArr[a]){
-                fixation(jsonArr, jsonOrg, a)
-            }
-            }
-            
-            for(i in jsonArr){
-                for(o in jsonArr[i]){
-                    buildList(jsonArr[i][o]["lesson"], i)
+                for(i=0; i<7;i++){
+                    // console.log("RUNNING FOR DAY " + a)
+                    fixation(jsonArr, jsonOrg, a)
                 }
             }
-            console.log(mondayArr)
-            console.log(tuesdayArr)
-            console.log(wednesdayArr)
-            console.log(thursdayArr)
-            console.log(fridayArr)
+            
+            // for(i in jsonArr){
+            //     for(o in jsonArr[i]){
+            //         buildList(jsonArr[i][o]["lesson"], i)
+            //     }
+            // }
 
-            function buildList(txt, i){
-                let li = document.createElement("li")
-                li.innerHTML = txt
-                if(i==0){
-                    monday.appendChild(li)
-                }else if(i==1){
-                    tuesday.appendChild(li)
-                }else if(i==2){
-                    wednesday.appendChild(li)
-                }else if(i==3){
-                    thursday.appendChild(li)
-                }else if(i==4){
-                    friday.appendChild(li)
+            // Monday
+            buildDay(0)
+            // Tuesday
+            buildDay(1)
+            // Wednesday
+            buildDay(2)
+            // Thursday
+            buildDay(3)
+            // Friday
+            buildDay(4)
+            
+            function buildDay(day){
+                let li1 = document.createElement("li")
+                let li2 = document.createElement("li")
+                let li3 = document.createElement("li")
+                let li4 = document.createElement("li")
+                let li5 = document.createElement("li")
+                let li6 = document.createElement("li")
+                let li7 = document.createElement("li")
+                if(day == 0){
+                    let lesson1 = "";
+                    let lesson2 = "";
+                    let lesson3 = "";
+                    let lesson4 = "";
+                    let lesson5 = "";
+                    let lesson6 = "";
+                    let lesson7 = "";
+                    try{
+                        lesson1 = mondayArr[0]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson2 = mondayArr[1]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson3 = mondayArr[2]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson4 = mondayArr[3]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson5 = mondayArr[4]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson6 = mondayArr[5]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson7 = mondayArr[6]["lesson"];
+                    }catch(err){}
+
+                    li1.innerHTML = lesson1
+                    li2.innerHTML = lesson2
+                    li3.innerHTML = lesson3
+                    li4.innerHTML = lesson4
+                    li5.innerHTML = lesson5
+                    li6.innerHTML = lesson6
+                    li7.innerHTML = lesson7
+                    monday.appendChild(li1)
+                    monday.appendChild(li2)
+                    monday.appendChild(li3)
+                    monday.appendChild(li4)
+                    monday.appendChild(li5)
+                    monday.appendChild(li6)
+                    monday.appendChild(li7)
+                }else if(day == 1){
+                    let lesson1 = "";
+                    let lesson2 = "";
+                    let lesson3 = "";
+                    let lesson4 = "";
+                    let lesson5 = "";
+                    let lesson6 = "";
+                    let lesson7 = "";
+                    try{
+                        lesson1 = tuesdayArr[0]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson2 = tuesdayArr[1]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson3 = tuesdayArr[2]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson4 = tuesdayArr[3]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson5 = tuesdayArr[4]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson6 = tuesdayArr[5]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson7 = tuesdayArr[6]["lesson"];
+                    }catch(err){}
+
+                    li1.innerHTML = lesson1
+                    li2.innerHTML = lesson2
+                    li3.innerHTML = lesson3
+                    li4.innerHTML = lesson4
+                    li5.innerHTML = lesson5
+                    li6.innerHTML = lesson6
+                    li7.innerHTML = lesson7
+                    tuesday.appendChild(li1)
+                    tuesday.appendChild(li2)
+                    tuesday.appendChild(li3)
+                    tuesday.appendChild(li4)
+                    tuesday.appendChild(li5)
+                    tuesday.appendChild(li6)
+                    tuesday.appendChild(li7)
+                }else if(day == 2){
+                    let lesson1 = "";
+                    let lesson2 = "";
+                    let lesson3 = "";
+                    let lesson4 = "";
+                    let lesson5 = "";
+                    let lesson6 = "";
+                    let lesson7 = "";
+                    try{
+                        lesson1 = wednesdayArr[0]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson2 = wednesdayArr[1]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson3 = wednesdayArr[2]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson4 = wednesdayArr[3]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson5 = wednesdayArr[4]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson6 = wednesdayArr[5]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson7 = wednesdayArr[6]["lesson"];
+                    }catch(err){}
+
+                    li1.innerHTML = lesson1
+                    li2.innerHTML = lesson2
+                    li3.innerHTML = lesson3
+                    li4.innerHTML = lesson4
+                    li5.innerHTML = lesson5
+                    li6.innerHTML = lesson6
+                    li7.innerHTML = lesson7
+                    wednesday.appendChild(li1)
+                    wednesday.appendChild(li2)
+                    wednesday.appendChild(li3)
+                    wednesday.appendChild(li4)
+                    wednesday.appendChild(li5)
+                    wednesday.appendChild(li6)
+                    wednesday.appendChild(li7)
+                }else if(day == 3){
+                    let lesson1 = "";
+                    let lesson2 = "";
+                    let lesson3 = "";
+                    let lesson4 = "";
+                    let lesson5 = "";
+                    let lesson6 = "";
+                    let lesson7 = "";
+                    try{
+                        lesson1 = thursdayArr[0]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson2 = thursdayArr[1]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson3 = thursdayArr[2]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson4 = thursdayArr[3]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson5 = thursdayArr[4]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson6 = thursdayArr[5]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson7 = thursdayArr[6]["lesson"];
+                    }catch(err){}
+
+                    li1.innerHTML = lesson1
+                    li2.innerHTML = lesson2
+                    li3.innerHTML = lesson3
+                    li4.innerHTML = lesson4
+                    li5.innerHTML = lesson5
+                    li6.innerHTML = lesson6
+                    li7.innerHTML = lesson7
+                    thursday.appendChild(li1)
+                    thursday.appendChild(li2)
+                    thursday.appendChild(li3)
+                    thursday.appendChild(li4)
+                    thursday.appendChild(li5)
+                    thursday.appendChild(li6)
+                    thursday.appendChild(li7)
+                }else if(day == 4){
+                    let lesson1 = "";
+                    let lesson2 = "";
+                    let lesson3 = "";
+                    let lesson4 = "";
+                    let lesson5 = "";
+                    let lesson6 = "";
+                    let lesson7 = "";
+                    try{
+                        lesson1 = fridayArr[0]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson2 = fridayArr[1]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson3 = fridayArr[2]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson4 = fridayArr[3]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson5 = fridayArr[4]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson6 = fridayArr[5]["lesson"];
+                    }catch(err){}
+                    try{
+                        lesson7 = fridayArr[6]["lesson"];
+                    }catch(err){}
+
+                    li1.innerHTML = lesson1
+                    li2.innerHTML = lesson2
+                    li3.innerHTML = lesson3
+                    li4.innerHTML = lesson4
+                    li5.innerHTML = lesson5
+                    li6.innerHTML = lesson6
+                    li7.innerHTML = lesson7
+                    friday.appendChild(li1)
+                    friday.appendChild(li2)
+                    friday.appendChild(li3)
+                    friday.appendChild(li4)
+                    friday.appendChild(li5)
+                    friday.appendChild(li6)
+                    friday.appendChild(li7)
+                }
+            }
+
+        function fixation(jsonArr, jsonSpc, day){
+            for(o=0;o<7;o++){
+                try{
+                    if(index >7){
+                        // console.log("Just hopured, Day: " + day + " hour: " + index)
+                        return;
+                    }
+                    // if(o >= 6){
+                    //     console.log("Just retired, Day: " + day + " hour: " + index)
+                    // }
+                    try{
+                        if(jsonSpc["special"][day][o]["hour"] == index){
+                            let newArrStr = JSON.stringify(jsonSpc["special"]);
+                            let newArr = JSON.parse(newArrStr)
+                            let newLessonName = String(newArr[day][o]["lesson"]) + " (ΚΑΤ)"
+                            newArr[day][o]["lesson"] = newLessonName
+                            let elemPP = newArr[day][o]
+                            if(day==0){
+                                mondayArr.push(elemPP)
+                                // console.log("mon")
+                            }else if(day==1){
+                                tuesdayArr.push(elemPP)
+                                // console.log("tus")
+                            }else if(day==2){
+                                wednesdayArr.push(elemPP)
+                                // console.log("wed")
+                            }else if(day==3){
+                                thursdayArr.push(elemPP)
+                                // console.log("thur")
+                            }else if(day==4){
+                                fridayArr.push(elemPP)
+                                // console.log("fri")
+                            }
+                            index++
+                            // return;
+                        }
+                    }catch(err) {}
+                    let elem = jsonArr[day][o]["hour"]
+                    let elemP = jsonArr[day][o]
+                    if(elem == index){
+                        // console.log("FOUND: Day:" + day + ", hour: " + index + ", attempt in array: " +o)
+                        index++
+                        if(jsonArr[day][o]["double"] == "1"){
+                            try{
+                                // console.log("DOUBLE")
+                                let newArrStr = JSON.stringify(jsonArr);
+                                let newArr = JSON.parse(newArrStr)
+                                let hourExtra = parseInt(jsonArr[day][o]["hour"]) + 1
+                                newArr[day][o]["hour"] = String(hourExtra)
+                                let elemPP = newArr[day][o]
+                                index++
+                                if(day==0){
+                                    mondayArr.push(elemP)
+                                    mondayArr.push(elemPP)
+                                    // console.log("monday")
+                                }else if(day==1){
+                                    tuesdayArr.push(elemP)
+                                    tuesdayArr.push(elemPP)
+                                    // console.log("tuesday")
+                                }else if(day==2){
+                                    wednesdayArr.push(elemP)
+                                    wednesdayArr.push(elemPP)
+                                    // console.log("wednesday")
+                                }else if(day==3){
+                                    thursdayArr.push(elemP)
+                                    thursdayArr.push(elemPP)
+                                    // console.log("thursday")
+                                }else if(day==4){
+                                    fridayArr.push(elemP)
+                                    fridayArr.push(elemPP)
+                                    // console.log("friday")
+                                }
+                            }catch(err){console.log(err)}
+                        }else{
+                            if(day==0){
+                                mondayArr.push(elemP)
+                            }else if(day==1){
+                                tuesdayArr.push(elemP)
+                            }else if(day==2){
+                                wednesdayArr.push(elemP)
+                            }else if(day==3){
+                                thursdayArr.push(elemP)
+                            }else if(day==4){
+                                fridayArr.push(elemP)
+                            }
+                        }
+                    }
+                } catch(err){
+                    // console.log(err)
                 }
             }
         }
-
-        function fixation(jsonArr, jsonSpc, day){
-            let i=0
-            let found = false;
-            for(o in jsonArr[i]){
-                if(index >7){
-                    return;
-                }
-                let elem = jsonArr[i][o]["hour"]
-                let elemP = jsonArr[i][o]
-                if(elem == index && !found ){
-                    // console.log("FOUND: Day:" + i + ", index: " + index)
-                    index++
-                    if(jsonArr[i][o]["double"] == "1"){
-                        // console.log("DOUBLE")
-                        let newArrStr = JSON.stringify(jsonArr);
-                        let newArr = JSON.parse(newArrStr)
-                        let hourExtra = parseInt(jsonArr[i][o]["hour"]) + 1
-                        newArr[i][o]["hour"] = String(hourExtra)
-                        let elemPP = newArr[i][o]
-                        if(day==0){
-                            mondayArr.push(elemP)
-                            mondayArr.push(elemPP)
-                        }else if(day==1){
-                            tuesdayArr.push(elemP)
-                            tuesdayArr.push(elemPP)
-                        }else if(day==2){
-                            wednesdayArr.push(elemP)
-                            wednesdayArr.push(elemPP)
-                        }else if(day==3){
-                            thursdayArr.push(elemP)
-                            thursdayArr.push(elemPP)
-                        }else if(day==4){
-                            fridayArr.push(elemP)
-                            fridayArr.push(elemPP)
-                        }
-                        found = true
-                    }else{
-                        if(day==0){
-                            mondayArr.push(elemP)
-                        }else if(day==1){
-                            tuesdayArr.push(elemP)
-                        }else if(day==2){
-                            wednesdayArr.push(elemP)
-                        }else if(day==3){
-                            thursdayArr.push(elemP)
-                        }else if(day==4){
-                            fridayArr.push(elemP)
-                        }
-                        found = true
-                    }
-                }else{
-                    try{
-                        if(jsonSpc["special"][i][o] === 'undefined' || jsonSpc["special"][i] === 'undefined'){
-                        return
-                        }else if(jsonSpc["special"][i][o]["hour"] == index){
-                            index++
-                            // console.log("doing special")
-                            let elemS = jsonSpc["special"][i][o]
-                            if(day==0){
-                                mondayArr.push(elemS)
-                            }else if(day==1){
-                                tuesdayArr.push(elemS)
-                            }else if(day==2){
-                                wednesdayArr.push(elemS)
-                            }else if(day==3){
-                                thursdayArr.push(elemS)
-                            }else if(day==4){
-                                fridayArr.push(elemS)
-                            }
-                            found = true
-                        } 
-                    } catch(error){
-                        console.log("error")
-                    }
-                }
-            }
         }
 
     </script>
 </head>
 <body>
-    <div>
-        <div>
-            <h1>Monday</h1>
+    <div class="title-box">
+        <h1 id="title">ΠΡΟΓΡΑΜΜΑ</h1>
+        <div class="divh2">
+            <h2 id="cl1" style="float:left;">ΤΜΗΜΑ: </h2>
+            <h2 id="cl2" style="float:right; text-align: right;">ΚΑΤ: </h2>
+        </div>
+    </div>
+    <div class="divBig mx-auto">
+        <div class="divP">
+            <h3>ΔΕΥΤΕΡΑ</h3>
             <ol id="monday"></ol>
         </div>
-        <div>
-            <h1>Tuesday</h1>
+        <div class="divP">
+            <h3>ΤΡΙΤΗ</h3>
             <ol id="tuesday"></ol>
         </div>
-        <div>
-            <h1>Wednesday</h1>
+        <div class="divP">
+            <h3>ΤΕΤΑΡΤΗ</h3>
             <ol id="wednesday"></ol>
         </div>
-        <div>
-            <h1>Thursday</h1>
+        <div class="divP">
+            <h3>ΠΕΜΠΤΗ</h3>
             <ol id="thursday"></ol>
         </div>
-        <div>
-            <h1>Friday</h1>
+        <div class="divP">
+            <h3>ΠΑΡΑΣΚΕΥΗ</h3>
             <ol id="friday"></ol>
         </div>
     </div>

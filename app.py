@@ -72,8 +72,8 @@ def mainFunction(si):
     ls4 = []
     count = 0
 
-    for i in range(1, 73): # Row indexing
-        for o in range(1, 37): # Column indexing
+    for i in range(1, 74): # Row indexing
+        for o in range(1, 38): # Column indexing
             if(ws1.cell(row=i, column=o).value == si):
                 lC = i-1
                 double = "0";
@@ -147,27 +147,37 @@ async def find():
     special = request.args.get('special')
     classId = 999
     specialId = 999
+    specialExist = True
+    if special == "none":
+        specialExist = False
+    print(uClass)
     for i in classesAll:
         if i["c"] == uClass:
             classId = i["n"]
-
-    for i in classesAll:
-        if i["c"] == special:
-            specialId = i["n"]
-    if classId == 999 or specialId == 999:
+    if specialExist:
+        for i in classesAll:
+            if i["c"] == special:
+                specialId = i["n"]
+    print(classId)
+    print(specialId)
+    print(specialExist)
+    if classId == 999 or (specialId == 999 and specialExist):
         print("ERROR ON CLASSID AND SPECIALID")
         return
     a_file = open("data.json", "r", encoding='utf8')
     json_object = json.load(a_file)
     nClassProg = json_object[classId][uClass]
-    sClassProg = json_object[specialId][special]
+    if specialExist:
+        sClassProg = json_object[specialId][special]
+    else:
+        sClassProg = []
     totalProg = {
         "normal": nClassProg,
         "special": sClassProg
     }
     a_file.close()
     print("found")
-    return render_template('display.html', data=json.dumps(totalProg, ensure_ascii=False)) 
+    return render_template('display.html', data=json.dumps(totalProg, ensure_ascii=False), args=json.dumps(request.args)) 
 
 if __name__ == '__main__':
   app.run(debug=True)

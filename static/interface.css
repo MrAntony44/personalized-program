@@ -1,0 +1,67 @@
+.mx-auto{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+body {
+    background: #e8ebf3;
+    height: auto;
+    font: 400 16px 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBig {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divP { 
+    margin: 75px;
+}
+
+.title-box {
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 70px;
+    margin: 0;
+}
+h2{
+    font-size: 30px;
+    margin: 0;
+    height: 30px;
+    width: 50%;
+}
+
+
+h3{
+    font-size: 40px;
+}
+
+li{
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    .divP{
+        width: 100%;
+        height: 100%;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
+
