@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='button.css')}}">
   <link rel="stylesheet" href="{{ url_for('static', filename='index.css')}}">
 
   <script>
@@ -17,24 +19,28 @@
       // unhide class list global
       if(lsAllow()){
         ls.classList.remove("hidden")
+        document.getElementById("class").classList.add("select1Side")
       }else if(!lsAllow()){
         ls.classList.add("hidden")
+        document.getElementById("class").classList.remove("select1Side")
       }
 
       if(directAllow()){
         if(res.value == "Β"){
-          console.log("b")
           specialB.classList.remove("hidden")
+          document.getElementById("classls").classList.add("select2Side")
         }else if(res.value == "Γ"){
-          console.log("c")
           specialC.classList.remove("hidden")
+          document.getElementById("classls").classList.add("select2Side")
         }
       }else if(!directAllow()){
         if(!specialB.classList.contains("hidden")){
           specialB.classList.add("hidden")
+          document.getElementById("classls").classList.remove("select2Side")
         }
         if(!specialC.classList.add("hidden")){
           specialC.classList.add("hidden")
+          document.getElementById("classls").classList.remove("select2Side")
         }
       }
 
@@ -60,8 +66,25 @@
 
       if(buttonAllow()){
         document.getElementById("btn").classList.remove("hidden")
+        if(res.value == "Β"){
+          document.getElementById("specialB").classList.add("select3Side")
+        }else if(res.value == "Γ"){
+          document.getElementById("specialC").classList.add("select4Side")
+        }else if(res.value == "Α"){
+          document.getElementById("classls").classList.add("select2Side")
+        }
+
       }else{
         document.getElementById("btn").classList.add("hidden")
+        if(document.getElementById("specialB").classList.contains("select3Side")){
+          document.getElementById("specialB").classList.remove("select3Side")
+        }
+        if(document.getElementById("specialC").classList.contains("select4Side")){
+          document.getElementById("specialC").classList.remove("select4Side")
+        }
+        if(document.getElementById("classls").classList.contains("select2Side")){
+          document.getElementById("classls").classList.contains("select2Side")
+        }
       }
     }
 
@@ -142,42 +165,59 @@
   </script>
 
 </head>
-<body>
-  <select name="classList" id="class" onchange="change()">
-    <option value="">ΤΑΞΗ</option>
-    <option value="Α">Α</option>
-    <option value="Β">Β</option>
-    <option value="Γ">Γ</option>
-  </select>
-
-  <select name="classList" id="classls" onchange="change()" class="hidden">
-    <option value="">ΤΜΗΜΑ</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-  </select>
-
-  <select name="specialListB" id="specialB" onchange="change()" class="hidden">
-    <option value="">ΚΑΤΕΥΘΥΝΣΗ</option>
-    <option value="Βθετ1">Βθετ1</option>
-    <option value="Βθετ2">Βθετ2</option>
-    <option value="Βθετ3">Βθετ3</option>
-    <option value="Βθετ4">Βθετ4</option>
-    <option value="Βανθρ1">Βανθρ1</option>
-    <option value="Βανθρ2">Βανθρ2</option>
-  </select>
-
-  <select name="specialListC" id="specialC" onchange="change()" class="hidden">
-    <option value="">ΚΑΤΕΥΘΥΝΣΗ</option>
-    <option value="Γανθρ">Γανθρ</option>
-    <option value="Γυγείας">Γυγείας</option>
-    <option value="Γοικ1">Γοικ1</option>
-    <option value="Γοικ2">Γοικ2</option>
-    <option value="Γθετ1">Γθετ1</option>
-    <option value="Γθετ2">Γθετ2</option>
-  </select>
-  <button onclick="validate()" class="hidden" id="btn">GO</button>
+<body onload="change()">
+  <h1 style="margin-bottom: 0px;">ΠΡΟΣΩΠΙΚΟ ΠΡΟΓΡΑΜΜΑ</h1>
+  <h2 style="margin-top: 0px;">1ο Γενικό Λύκειο Γέρακα</h2>
+  <div class="bodyLike">
+    <div class="select-nest">
+      <select name="classList" id="class" class="select1 select-box" onchange="change()">
+        <option value="">ΤΑΞΗ</option>
+        <option value="Α">Α</option>
+        <option value="Β">Β</option>
+        <option value="Γ">Γ</option>
+      </select>
+    </div>
+  
+    <div class="select-nest">
+      <select name="classList" id="classls" onchange="change()" class="select2 hidden">
+        <option value="">ΤΜΗΜΑ</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </div>
+  
+    <div class="select-nest">
+      <select name="specialListB" id="specialB" onchange="change()" class="select3 hidden">
+        <option value="">ΚΑΤΕΥΘΥΝΣΗ</option>
+        <option value="Βθετ1">Βθετ1</option>
+        <option value="Βθετ2">Βθετ2</option>
+        <option value="Βθετ3">Βθετ3</option>
+        <option value="Βθετ4">Βθετ4</option>
+        <option value="Βανθρ1">Βανθρ1</option>
+        <option value="Βανθρ2">Βανθρ2</option>
+      </select>
+    </div>
+  
+    <div class="select-nest">
+      <select name="specialListC" id="specialC" onchange="change()" class="select4 hidden">
+        <option value="">ΚΑΤΕΥΘΥΝΣΗ</option>
+        <option value="Γανθρ">Γανθρ</option>
+        <option value="Γυγείας">Γυγείας</option>
+        <option value="Γοικ1">Γοικ1</option>
+        <option value="Γοικ2">Γοικ2</option>
+        <option value="Γθετ1">Γθετ1</option>
+        <option value="Γθετ2">Γθετ2</option>
+      </select>
+    </div>
+    <button class="learn-more" onclick="validate()" class="hidden btn" id="btn">
+      <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+      </span>
+      <span class="button-text">ΠΡΟΓΡΑΜΜΑ</span>
+    </button>
+  </div>
 </body>
 </html>

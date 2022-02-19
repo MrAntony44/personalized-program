@@ -1,3 +1,4 @@
+/* 
 label,
 footer {
     font-family: sans-serif;
@@ -23,25 +24,125 @@ footer {
 .output {
     background: center/cover no-repeat url('/media/cc0-images/hamster.jpg');
     position: relative;
-}
+} */
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
-body {
+html, body {
     background: #e8ebf3;
-    height: auto;
+    height: 100%;
+    width: 100%;
     font: 400 16px 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bodyLike {
+    background: #e8ebf3;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-select{
-    margin-top: auto !important;
-    margin-bottom: auto !important;
-    height: 30px;
-    width: 1000px;
+select {
+    transition: all 0.2s ease-in-out;
+}
+
+
+.select-nest{
+    width: 100%;
+    height: 5%;
+    padding-top: auto !important;
+    padding-bottom: auto !important;
+    display: flex;
+}
+
+.btn {
+    width: 20%;
+    height: 5%;
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+.select1{
+    width: 20%;
+    height: 100%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    border-radius: 4px;
+}
+
+.select1Side { 
+    width: 10% !important;
+    height: 65% !important;
+    transform: translateY(-100%);
+}
+
+.select2{
+    width: 20%;
+    height: 100%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    border-radius: 4px;
+}
+
+.select2Side { 
+    width: 10% !important;
+    height: 65% !important;
+    transform: translateY(-100%);
+}
+
+.select3{
+    width: 20%;
+    height: 100%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    border-radius: 4px;
+}
+
+.select3Side { 
+    width: 10% !important;
+    height: 65% !important;
+    transform: translateY(-100%);
+}
+
+.select4{
+    width: 20%;
+    height: 100%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    border-radius: 4px;
+}
+
+.select4Side { 
+    width: 10% !important;
+    height: 65% !important;
+    transform: translateY(-250%);
+}
+
+.select-box {
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+    font-size: 15px;
+    color: #60666d;
+    border: none;
+    box-shadow: 0 0 50px rgba(180, 180, 180, 1);
 }

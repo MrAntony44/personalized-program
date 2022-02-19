@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .divBig {
@@ -19,7 +20,7 @@ body {
 }
 
 .divP { 
-    margin: 75px;
+    margin: 50px;
 }
 
 .title-box {
