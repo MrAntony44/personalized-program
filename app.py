@@ -72,7 +72,7 @@ def mainFunction(si):
     ls4 = []
     count = 0
 
-    for i in range(1, 74): # Row indexing
+    for i in range(1, 80): # Row indexing
         for o in range(1, 38): # Column indexing
             if(ws1.cell(row=i, column=o).value == si):
                 lC = i-1
