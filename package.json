@@ -1,5 +1,5 @@
 {
-  "name": "katradi_gamiesai",
+  "name": "personal-program",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrAntony44/katradi-koukle.git"
+    "url": "git+https://github.com/MrAntony44/personalized-program.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MrAntony44/katradi-koukle/issues"
+    "url": "https://github.com/MrAntony44/personalized-program/issues"
   },
-  "homepage": "https://github.com/MrAntony44/katradi-koukle#readme",
+  "homepage": "https://github.com/MrAntony44/personalized-program#readme",
   "dependencies": {
     "exceljs": "^4.3.0"
   }
