@@ -44,7 +44,7 @@ classesAll = [
 
 classes = aClasses + bClasses + cClasses + sClasses
 
-wb = load_workbook("test.xlsx", data_only=True)
+wb = load_workbook("program.xlsx", data_only=True)
 ws1 = wb["Εκπαιδευτικοί"]
 
 ls0 = []
