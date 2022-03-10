@@ -5,13 +5,13 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 0,
-                    "hour": "4",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΛΓ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 0,
-                    "hour": "1",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
@@ -21,15 +21,27 @@
                     "double": "0"
                 },
                 {
+                    "lesson": "ΑΛΓ",
+                    "day": 0,
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΑΓΓΛ",
                     "day": 0,
-                    "hour": "3",
+                    "hour": "7",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΠΛΗΡ",
+                    "day": 0,
+                    "hour": "4",
                     "double": "0"
                 }
             ],
@@ -37,25 +49,31 @@
                 {
                     "lesson": "ΘΡΗΣ",
                     "day": 1,
-                    "hour": "6",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΡΧ",
                     "day": 1,
+                    "hour": "7",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΙΣΤ",
+                    "day": 1,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 1,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΒΙΟ",
+                    "day": 1,
                     "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΛΓ",
-                    "day": 1,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΧΗΜ",
-                    "day": 1,
-                    "hour": "1",
                     "double": "0"
                 },
                 {
@@ -65,67 +83,67 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΠΛΗΡ",
                     "day": 1,
-                    "hour": "2",
+                    "hour": "1",
                     "double": "0"
                 }
             ],
             "2": [
                 {
+                    "lesson": "ΘΡΗΣ",
+                    "day": 2,
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΑΡΧ",
-                    "day": 2,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΛΓ",
-                    "day": 2,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΒΙΟ",
                     "day": 2,
                     "hour": "7",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΑΛ",
+                    "lesson": "ΑΛΓ",
+                    "day": 2,
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΧΗΜ",
                     "day": 2,
                     "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΑΛ",
+                    "day": 2,
+                    "hour": "4",
                     "double": "1"
                 },
                 {
                     "lesson": "ΠΟΛΠ",
                     "day": 2,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΠΛΗΡ",
-                    "day": 2,
-                    "hour": "4",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
             "3": [
                 {
-                    "lesson": "ΘΡΗΣ",
+                    "lesson": "ΑΡΧ",
                     "day": 3,
                     "hour": "6",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΡΧ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 3,
-                    "hour": "1",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΕΩ",
+                    "lesson": "ΑΛΓ",
                     "day": 3,
-                    "hour": "5",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
@@ -135,15 +153,15 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΠΟΛΠ",
+                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 3,
-                    "hour": "2",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΠΛΗΡ",
+                    "lesson": "ΠΟΛΠ",
                     "day": 3,
-                    "hour": "4",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -151,13 +169,7 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 4,
-                    "hour": "7",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΓΛΩΣ",
-                    "day": 4,
-                    "hour": "1",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
@@ -167,27 +179,33 @@
                     "double": "0"
                 },
                 {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 4,
+                    "hour": "7",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΕΩ",
+                    "day": 4,
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΦΥΣ",
                     "day": 4,
                     "hour": "2",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΧΗΜ",
+                    "lesson": "ΒΙΟ",
                     "day": 4,
                     "hour": "6",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΒΙΟ",
-                    "day": 4,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΑΓΓΛ",
                     "day": 4,
-                    "hour": "4",
+                    "hour": "3",
                     "double": "0"
                 }
             ]
@@ -199,107 +217,113 @@
                 {
                     "lesson": "ΓΕΩ",
                     "day": 0,
-                    "hour": "1",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΛΓ",
                     "day": 0,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΘΡΗΣ",
-                    "day": 0,
-                    "hour": "6",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΡΧ",
                     "day": 0,
                     "hour": "7",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 0,
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΙΣΤ",
                     "day": 0,
-                    "hour": "4",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ",
-                    "day": 0,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΒΙΟ",
+                    "lesson": "ΧΗΜ",
                     "day": 0,
                     "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΓΓΛ",
+                    "day": 0,
+                    "hour": "6",
                     "double": "0"
                 }
             ],
             "1": [
                 {
-                    "lesson": "ΓΕΩ",
-                    "day": 1,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΘΡΗΣ",
-                    "day": 1,
-                    "hour": "7",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΡΧ",
+                    "lesson": "ΑΛΓ",
                     "day": 1,
                     "hour": "4",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΛΩΣ",
+                    "lesson": "ΓΕΩ",
                     "day": 1,
-                    "hour": "1",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΑΡΧ",
                     "day": 1,
                     "hour": "2",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΠΟΛΠ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 1,
-                    "hour": "5",
+                    "hour": "7",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΠΛΗΡ",
+                    "lesson": "ΦΥΣ",
+                    "day": 1,
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΓΓΛ",
                     "day": 1,
                     "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 1,
+                    "hour": "1",
                     "double": "0"
                 }
             ],
             "2": [
                 {
-                    "lesson": "ΑΡΧ",
+                    "lesson": "ΘΡΗΣ",
                     "day": 2,
                     "hour": "4",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΑΡΧ",
                     "day": 2,
-                    "hour": "3",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΧΗΜ",
+                    "lesson": "ΦΥΣ",
                     "day": 2,
-                    "hour": "5",
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΒΙΟ",
+                    "day": 2,
+                    "hour": "3",
                     "double": "0"
                 },
                 {
@@ -309,15 +333,9 @@
                     "double": "1"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΠΟΛΠ",
                     "day": 2,
                     "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ ΑΓ",
-                    "day": 2,
-                    "hour": "2",
                     "double": "0"
                 }
             ],
@@ -329,6 +347,12 @@
                     "double": "0"
                 },
                 {
+                    "lesson": "ΘΡΗΣ",
+                    "day": 3,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΑΡΧ",
                     "day": 3,
                     "hour": "1",
@@ -337,69 +361,63 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 3,
-                    "hour": "7",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
                     "lesson": "ΙΣΤ",
                     "day": 3,
-                    "hour": "2",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΧΗΜ",
-                    "day": 3,
-                    "hour": "4",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
                     "lesson": "ΒΙΟ",
                     "day": 3,
-                    "hour": "6",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΠΟΛΠ",
+                    "lesson": "ΠΛΗΡ",
                     "day": 3,
-                    "hour": "3",
+                    "hour": "7",
                     "double": "0"
                 }
             ],
             "4": [
                 {
-                    "lesson": "ΑΛΓ",
-                    "day": 4,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΑΡΧ",
-                    "day": 4,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΓΛΩΣΣΑ",
-                    "day": 4,
-                    "hour": "1",
-                    "double": "1"
-                },
-                {
-                    "lesson": "ΑΓΓΛ",
-                    "day": 4,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 4,
                     "hour": "3",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 4,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΓΓΛ",
+                    "day": 4,
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 4,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΠΟΛΠ",
+                    "day": 4,
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΠΛΗΡ",
                     "day": 4,
-                    "hour": "7",
+                    "hour": "6",
                     "double": "0"
                 }
             ]
@@ -411,57 +429,45 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 0,
-                    "hour": "7",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΛΩΣ",
-                    "day": 0,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΓΕΩ",
-                    "day": 0,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΛΓ",
-                    "day": 0,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΒΙΟ",
+                    "lesson": "ΙΣΤ",
                     "day": 0,
                     "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΓΛΩΣ",
+                    "day": 0,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΒΙΟ",
                     "day": 0,
                     "hour": "2",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΠΟΛΠ",
+                    "lesson": "ΑΓΓΛ",
                     "day": 0,
-                    "hour": "3",
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 0,
+                    "hour": "4",
                     "double": "0"
                 }
             ],
             "1": [
                 {
-                    "lesson": "ΘΡΗΣ",
-                    "day": 1,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΑΡΧ",
                     "day": 1,
-                    "hour": "1",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
@@ -471,19 +477,25 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΧΗΜ",
+                    "lesson": "ΓΛΩΣ",
+                    "day": 1,
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΕΩ",
+                    "day": 1,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΛΓ",
                     "day": 1,
                     "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ",
-                    "day": 1,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΠΛΗΡ",
                     "day": 1,
                     "hour": "5",
                     "double": "0"
@@ -493,43 +505,43 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 2,
-                    "hour": "3",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 2,
-                    "hour": "7",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΛΓ",
                     "day": 2,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΧΗΜ",
-                    "day": 2,
                     "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΑΛ",
+                    "lesson": "ΒΙΟ",
                     "day": 2,
                     "hour": "4",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΓΑΛ",
                     "day": 2,
                     "hour": "2",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΠΛΗΡ",
+                    "lesson": "ΑΓΓΛ",
                     "day": 2,
-                    "hour": "6",
+                    "hour": "7",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΠΟΛΠ",
+                    "day": 2,
+                    "hour": "3",
                     "double": "0"
                 }
             ],
@@ -537,81 +549,87 @@
                 {
                     "lesson": "ΘΡΗΣ",
                     "day": 3,
-                    "hour": "7",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΡΧ",
-                    "day": 3,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΙΣΤ",
-                    "day": 3,
                     "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΛΓ",
-                    "day": 3,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΓΓΛ",
-                    "day": 3,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΠΟΛΠ",
-                    "day": 3,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΠΛΗΡ",
-                    "day": 3,
-                    "hour": "2",
-                    "double": "0"
-                }
-            ],
-            "4": [
-                {
                     "lesson": "ΑΡΧ",
-                    "day": 4,
-                    "hour": "4",
+                    "day": 3,
+                    "hour": "7",
                     "double": "0"
-                },
-                {
-                    "lesson": "ΓΛΩΣΣΑ",
-                    "day": 4,
-                    "hour": "1",
-                    "double": "1"
                 },
                 {
                     "lesson": "ΓΕΩ",
-                    "day": 4,
+                    "day": 3,
                     "hour": "3",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ",
+                    "day": 3,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΓΓΛ",
+                    "day": 3,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 3,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΠΟΛΠ",
+                    "day": 3,
+                    "hour": "1",
+                    "double": "0"
+                }
+            ],
+            "4": [
+                {
+                    "lesson": "ΘΡΗΣ",
                     "day": 4,
                     "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΒΙΟ",
+                    "lesson": "ΑΡΧ",
                     "day": 4,
                     "hour": "7",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 4,
                     "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΛΓ",
+                    "day": 4,
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΧΗΜ",
+                    "day": 4,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ",
+                    "day": 4,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΠΛΗΡ",
+                    "day": 4,
+                    "hour": "1",
                     "double": "0"
                 }
             ]
@@ -623,25 +641,19 @@
                 {
                     "lesson": "ΘΡΗΣ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "7",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΡΧ",
                     "day": 0,
-                    "hour": "1",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΛΩΣΣΑ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 0,
                     "hour": "6",
-                    "double": "1"
-                },
-                {
-                    "lesson": "ΑΛΓ",
-                    "day": 0,
-                    "hour": "2",
                     "double": "0"
                 },
                 {
@@ -651,9 +663,21 @@
                     "double": "0"
                 },
                 {
+                    "lesson": "ΑΓΓΛ",
+                    "day": 0,
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 0,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΠΛΗΡ",
                     "day": 0,
-                    "hour": "3",
+                    "hour": "1",
                     "double": "0"
                 }
             ],
@@ -661,53 +685,47 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 1,
-                    "hour": "2",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΕΩ",
-                    "day": 1,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΛΓ",
-                    "day": 1,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 1,
                     "hour": "4",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΒΙΟ",
+                    "lesson": "ΑΛΓ",
                     "day": 1,
-                    "hour": "3",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΦΥΣ",
+                    "day": 1,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΒΙΟ",
                     "day": 1,
                     "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΑΓΓΛ",
                     "day": 1,
                     "hour": "7",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 1,
+                    "hour": "2",
                     "double": "0"
                 }
             ],
             "2": [
-                {
-                    "lesson": "ΘΡΗΣ",
-                    "day": 2,
-                    "hour": "5",
-                    "double": "0"
-                },
                 {
                     "lesson": "ΑΡΧ",
                     "day": 2,
@@ -717,11 +735,23 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 2,
-                    "hour": "4",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΒΙΟ",
+                    "lesson": "ΙΣΤ",
+                    "day": 2,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΕΩ",
+                    "day": 2,
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΓΓΛ",
                     "day": 2,
                     "hour": "6",
                     "double": "0"
@@ -729,25 +759,31 @@
                 {
                     "lesson": "ΓΕΡΜ",
                     "day": 2,
-                    "hour": "2",
+                    "hour": "4",
                     "double": "1"
-                },
-                {
-                    "lesson": "ΠΛΗΡ",
-                    "day": 2,
-                    "hour": "1",
-                    "double": "0"
                 }
             ],
             "3": [
                 {
+                    "lesson": "ΘΡΗΣ",
+                    "day": 3,
+                    "hour": "7",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΑΡΧ",
+                    "day": 3,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΙΣΤ",
                     "day": 3,
                     "hour": "6",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΛΩΣ",
+                    "lesson": "ΑΛΓ",
                     "day": 3,
                     "hour": "3",
                     "double": "0"
@@ -755,25 +791,19 @@
                 {
                     "lesson": "ΓΕΩ",
                     "day": 3,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΛΓ",
-                    "day": 3,
-                    "hour": "2",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΓΓΛ",
-                    "day": 3,
                     "hour": "5",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ",
+                    "day": 3,
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΠΟΛΠ",
                     "day": 3,
-                    "hour": "4",
+                    "hour": "2",
                     "double": "0"
                 }
             ],
@@ -781,43 +811,43 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 4,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΙΣΤ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 4,
                     "hour": "3",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΑΛΓ",
+                    "day": 4,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΧΗΜ",
                     "day": 4,
-                    "hour": "2",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ",
-                    "day": 4,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΒΙΟ",
                     "day": 4,
                     "hour": "7",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΠΟΛΠ",
                     "day": 4,
-                    "hour": "1",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΠΟΛΠ",
+                    "lesson": "ΠΛΗΡ",
                     "day": 4,
-                    "hour": "5",
+                    "hour": "2",
                     "double": "0"
                 }
             ]
@@ -827,71 +857,83 @@
         "Α5": {
             "0": [
                 {
-                    "lesson": "ΓΛΩΣΣΑ",
+                    "lesson": "ΘΡΗΣ",
+                    "day": 0,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΛΩΣ",
                     "day": 0,
                     "hour": "3",
-                    "double": "1"
+                    "double": "0"
                 },
                 {
                     "lesson": "ΑΡΧ",
                     "day": 0,
                     "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΙΣΤ",
+                    "day": 0,
+                    "hour": "7",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΛΓ",
                     "day": 0,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΧΗΜ",
-                    "day": 0,
                     "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΒΙΟ",
+                    "lesson": "ΓΕΩ",
                     "day": 0,
                     "hour": "6",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΧΗΜ",
                     "day": 0,
-                    "hour": "7",
+                    "hour": "1",
                     "double": "0"
                 }
             ],
             "1": [
                 {
-                    "lesson": "ΘΡΗΣ",
-                    "day": 1,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΡΧ",
-                    "day": 1,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΒΙΟ",
-                    "day": 1,
-                    "hour": "2",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 1,
                     "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΑΡΧ",
+                    "day": 1,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΙΣΤ",
                     "day": 1,
                     "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΧΗΜ",
+                    "day": 1,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ",
+                    "day": 1,
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΓΓΛ",
+                    "day": 1,
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -899,7 +941,7 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 2,
-                    "hour": "5",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
@@ -909,19 +951,19 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΕΩ",
+                    "lesson": "ΒΙΟ",
                     "day": 2,
                     "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΛΓ",
+                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 2,
-                    "hour": "3",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΠΟΛΠ",
                     "day": 2,
                     "hour": "2",
                     "double": "0"
@@ -931,43 +973,37 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 3,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΙΣΤ",
-                    "day": 3,
-                    "hour": "2",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΛΓ",
                     "day": 3,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΧΗΜ",
-                    "day": 3,
-                    "hour": "3",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ",
                     "day": 3,
-                    "hour": "7",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΒΙΟ",
                     "day": 3,
                     "hour": "6",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΑΓΓΛ",
+                    "day": 3,
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΠΟΛΠ",
                     "day": 3,
-                    "hour": "1",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
@@ -975,19 +1011,19 @@
                 {
                     "lesson": "ΘΡΗΣ",
                     "day": 4,
-                    "hour": "5",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 4,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΡΧ",
                     "day": 4,
-                    "hour": "3",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
@@ -997,15 +1033,21 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΑΛΓ",
                     "day": 4,
-                    "hour": "1",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΠΟΛΠ",
+                    "lesson": "ΑΓΓΛ",
                     "day": 4,
-                    "hour": "6",
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 4,
+                    "hour": "7",
                     "double": "0"
                 }
             ]
@@ -1015,37 +1057,37 @@
         "Β1": {
             "0": [
                 {
-                    "lesson": "ΘΡΗΣ",
+                    "lesson": "ΑΡΧ",
                     "day": 0,
-                    "hour": "7",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΙΣΤ",
-                    "day": 0,
-                    "hour": "2",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΓΕΩ",
-                    "day": 0,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΛΓ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 0,
                     "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΦΙΛ",
                     "day": 0,
-                    "hour": "6",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΙΣΤ",
+                    "day": 0,
+                    "hour": "7",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΛΓ",
+                    "day": 0,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΧΗΜ",
                     "day": 0,
                     "hour": "1",
                     "double": "0"
@@ -1053,45 +1095,45 @@
             ],
             "1": [
                 {
-                    "lesson": "ΓΛΩΣΣΑ",
-                    "day": 1,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΙΛ",
-                    "day": 1,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΙΣΤ",
+                    "lesson": "ΑΡΧ",
                     "day": 1,
                     "hour": "4",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΕΩ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 1,
                     "hour": "7",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΓΕΩ",
+                    "day": 1,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΑΛΓ",
                     "day": 1,
-                    "hour": "5",
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ",
+                    "day": 1,
+                    "hour": "2",
                     "double": "0"
                 },
                 {
                     "lesson": "ΒΙΟ",
                     "day": 1,
-                    "hour": "2",
+                    "hour": "1",
                     "double": "0"
                 }
             ],
             "2": [
                 {
-                    "lesson": "ΑΡΧ",
+                    "lesson": "ΘΡΗΣ",
                     "day": 2,
                     "hour": "6",
                     "double": "0"
@@ -1099,13 +1141,19 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 2,
-                    "hour": "4",
-                    "double": "1"
+                    "hour": "7",
+                    "double": "0"
                 },
                 {
                     "lesson": "ΦΙΛ",
                     "day": 2,
-                    "hour": "1",
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΙΣΤ",
+                    "day": 2,
+                    "hour": "4",
                     "double": "0"
                 },
                 {
@@ -1117,25 +1165,31 @@
                 {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 2,
-                    "hour": "3",
+                    "hour": "1",
                     "double": "0"
                 }
             ],
             "3": [
                 {
-                    "lesson": "ΑΡΧ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 3,
-                    "hour": "5",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΛΩΣΣΑ",
+                    "lesson": "ΓΕΩ",
+                    "day": 3,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΛΓ",
                     "day": 3,
                     "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΧΗΜ",
+                    "lesson": "ΦΥΣ",
                     "day": 3,
                     "hour": "2",
                     "double": "0"
@@ -1147,15 +1201,9 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
-                    "day": 3,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΠΛΗΡ",
                     "day": 3,
-                    "hour": "6",
+                    "hour": "4",
                     "double": "0"
                 }
             ],
@@ -1167,21 +1215,9 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΛΓ",
-                    "day": 4,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ",
-                    "day": 4,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΧΗΜ",
                     "day": 4,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
@@ -1191,9 +1227,21 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΠΛΗΡ",
+                    "lesson": "ΑΓΓΛ",
+                    "day": 4,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 4,
                     "hour": "5",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΠΛΗΡ",
+                    "day": 4,
+                    "hour": "6",
                     "double": "0"
                 }
             ]
@@ -1203,149 +1251,167 @@
         "Β2": {
             "0": [
                 {
-                    "lesson": "ΒΙΟ",
-                    "day": 0,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΘΡΗΣ",
                     "day": 0,
-                    "hour": "2",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΡΧ",
-                    "day": 0,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΙΛ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 0,
                     "hour": "4",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΙΣΤ",
+                    "day": 0,
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΛΓ",
+                    "day": 0,
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΦΥΣ",
                     "day": 0,
-                    "hour": "1",
+                    "hour": "7",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΓΓΛ",
+                    "day": 0,
+                    "hour": "2",
                     "double": "0"
                 }
             ],
             "1": [
                 {
-                    "lesson": "ΒΙΟ",
-                    "day": 1,
-                    "hour": "7",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΘΡΗΣ",
                     "day": 1,
-                    "hour": "2",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΡΧ",
-                    "day": 1,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΙΣΤ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 1,
                     "hour": "1",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΙΣΤ",
+                    "day": 1,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΑΛΓ",
                     "day": 1,
-                    "hour": "5",
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ",
+                    "day": 1,
+                    "hour": "6",
                     "double": "0"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 1,
-                    "hour": "3",
+                    "hour": "7",
                     "double": "0"
                 }
             ],
             "2": [
                 {
-                    "lesson": "ΦΙΛ",
+                    "lesson": "ΒΙΟ",
                     "day": 2,
-                    "hour": "2",
+                    "hour": "7",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΙΣΤ",
-                    "day": 2,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΛΓ",
-                    "day": 2,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΓΕΩ",
-                    "day": 2,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΑΡΧ",
                     "day": 2,
                     "hour": "6",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΦΙΛ",
+                    "day": 2,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 2,
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΛΓ",
                     "day": 2,
                     "hour": "5",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 2,
+                    "hour": "2",
                     "double": "0"
                 }
             ],
             "3": [
                 {
-                    "lesson": "ΑΛΓ",
+                    "lesson": "ΒΙΟ",
                     "day": 3,
-                    "hour": "2",
+                    "hour": "7",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΧΗΜ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 3,
-                    "hour": "6",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΓΕΩ",
                     "day": 3,
                     "hour": "3",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΑΓΓΛ",
+                    "day": 3,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 3,
-                    "hour": "5",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
                     "lesson": "ΠΛΗΡ",
                     "day": 3,
-                    "hour": "1",
+                    "hour": "2",
                     "double": "0"
                 }
             ],
             "4": [
                 {
-                    "lesson": "ΓΛΩΣ",
+                    "lesson": "ΑΡΧ",
                     "day": 4,
-                    "hour": "6",
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΙΛ",
+                    "day": 4,
+                    "hour": "7",
                     "double": "0"
                 },
                 {
@@ -1355,21 +1421,21 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΑΛ",
+                    "lesson": "ΧΗΜ",
                     "day": 4,
                     "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΓΑΛ",
                     "day": 4,
-                    "hour": "3",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
                     "lesson": "ΠΛΗΡ",
                     "day": 4,
-                    "hour": "4",
+                    "hour": "2",
                     "double": "0"
                 }
             ]
@@ -1381,55 +1447,43 @@
                 {
                     "lesson": "ΘΡΗΣ",
                     "day": 0,
-                    "hour": "1",
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΙΛ",
+                    "day": 0,
+                    "hour": "7",
                     "double": "0"
                 },
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 0,
-                    "hour": "2",
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΛΓ",
+                    "day": 0,
+                    "hour": "3",
                     "double": "0"
                 },
                 {
                     "lesson": "ΓΕΩ",
                     "day": 0,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΒΙΟ",
-                    "day": 0,
-                    "hour": "3",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΓΓΛ",
                     "day": 0,
-                    "hour": "7",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ ΑΓ",
-                    "day": 0,
-                    "hour": "4",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
             "1": [
                 {
-                    "lesson": "ΘΡΗΣ",
-                    "day": 1,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΑΡΧ",
-                    "day": 1,
-                    "hour": "7",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΙΛ",
                     "day": 1,
                     "hour": "4",
                     "double": "0"
@@ -1437,45 +1491,57 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 1,
-                    "hour": "5",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΕΩ",
+                    "lesson": "ΑΛΓ",
                     "day": 1,
-                    "hour": "2",
+                    "hour": "7",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΧΗΜ",
+                    "lesson": "ΒΙΟ",
                     "day": 1,
                     "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΓΓΛ",
+                    "day": 1,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 1,
+                    "hour": "2",
                     "double": "0"
                 }
             ],
             "2": [
                 {
-                    "lesson": "ΦΙΛ",
-                    "day": 2,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΙΣΤ",
+                    "lesson": "ΑΡΧ",
                     "day": 2,
                     "hour": "6",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΛΓ",
+                    "lesson": "ΓΕΩ",
                     "day": 2,
                     "hour": "2",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΑΛΓ",
+                    "day": 2,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΦΥΣ",
                     "day": 2,
-                    "hour": "3",
+                    "hour": "7",
                     "double": "0"
                 },
                 {
@@ -1493,15 +1559,21 @@
             ],
             "3": [
                 {
-                    "lesson": "ΙΣΤ",
+                    "lesson": "ΦΙΛ",
                     "day": 3,
-                    "hour": "2",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΛΓ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 3,
-                    "hour": "3",
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΙΣΤ",
+                    "day": 3,
+                    "hour": "2",
                     "double": "0"
                 },
                 {
@@ -1511,47 +1583,47 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 3,
                     "hour": "7",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
-                    "day": 3,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΠΛΗΡ",
                     "day": 3,
-                    "hour": "5",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
             "4": [
                 {
-                    "lesson": "ΑΡΧ",
-                    "day": 4,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΓΛΩΣΣΑ",
-                    "day": 4,
-                    "hour": "6",
-                    "double": "1"
-                },
-                {
-                    "lesson": "ΑΛΓ",
+                    "lesson": "ΘΡΗΣ",
                     "day": 4,
                     "hour": "3",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 4,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΙΣΤ",
+                    "day": 4,
+                    "hour": "7",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΧΗΜ",
+                    "day": 4,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΓΑΛ",
                     "day": 4,
-                    "hour": "4",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
@@ -1567,31 +1639,31 @@
         "Β4": {
             "0": [
                 {
-                    "lesson": "ΘΡΗΣ",
-                    "day": 0,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΓΛΩΣ",
-                    "day": 0,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΙΛ",
-                    "day": 0,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΛΓ",
+                    "lesson": "ΑΡΧ",
                     "day": 0,
                     "hour": "2",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΧΗΜ",
+                    "lesson": "ΦΙΛ",
+                    "day": 0,
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 0,
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΛΓ",
+                    "day": 0,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΓΓΛ",
                     "day": 0,
                     "hour": "1",
                     "double": "0"
@@ -1601,31 +1673,31 @@
                 {
                     "lesson": "ΓΕΩ",
                     "day": 1,
-                    "hour": "5",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΘΡΗΣ",
                     "day": 1,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΛΓ",
-                    "day": 1,
                     "hour": "2",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΙΣΤ",
+                    "day": 1,
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΙΛ",
                     "day": 1,
                     "hour": "4",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 1,
-                    "hour": "3",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
@@ -1633,69 +1705,75 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 2,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΛΩΣΣΑ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 2,
-                    "hour": "2",
-                    "double": "1"
+                    "hour": "7",
+                    "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΑΛΓ",
                     "day": 2,
-                    "hour": "5",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
                     "lesson": "ΒΙΟ",
                     "day": 2,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ",
+                    "day": 2,
                     "hour": "6",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 2,
-                    "hour": "1",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
             "3": [
                 {
-                    "lesson": "ΑΡΧ",
-                    "day": 3,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΙΣΤ",
                     "day": 3,
-                    "hour": "1",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΒΙΟ",
-                    "day": 3,
-                    "hour": "2",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ",
-                    "day": 3,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΑΛΓ",
                     "day": 3,
                     "hour": "7",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΦΥΣ",
+                    "day": 3,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΒΙΟ",
+                    "day": 3,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 3,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΠΛΗΡ",
                     "day": 3,
-                    "hour": "3",
+                    "hour": "1",
                     "double": "0"
                 }
             ],
@@ -1703,31 +1781,25 @@
                 {
                     "lesson": "ΓΕΩ",
                     "day": 4,
-                    "hour": "6",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΙΛ",
+                    "lesson": "ΘΡΗΣ",
                     "day": 4,
-                    "hour": "4",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 4,
-                    "hour": "7",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΛΓ",
-                    "day": 4,
-                    "hour": "1",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 4,
-                    "hour": "5",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
@@ -1751,55 +1823,55 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 0,
-                    "hour": "2",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 0,
-                    "hour": "4",
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΕΩ",
+                    "day": 0,
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΛΓ",
                     "day": 0,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΓΓΛ",
-                    "day": 0,
-                    "hour": "6",
+                    "hour": "4",
                     "double": "0"
                 }
             ],
             "1": [
                 {
-                    "lesson": "ΓΛΩΣΣΑ",
-                    "day": 1,
-                    "hour": "3",
-                    "double": "1"
-                },
-                {
-                    "lesson": "ΦΙΛ",
-                    "day": 1,
-                    "hour": "7",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΓΕΩ",
-                    "day": 1,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΒΙΟ",
+                    "lesson": "ΘΡΗΣ",
                     "day": 1,
                     "hour": "1",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΦΙΛ",
+                    "day": 1,
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΕΩ",
+                    "day": 1,
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΧΗΜ",
+                    "day": 1,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΒΙΟ",
                     "day": 1,
                     "hour": "2",
                     "double": "0"
@@ -1807,27 +1879,27 @@
             ],
             "2": [
                 {
-                    "lesson": "ΓΕΩ",
+                    "lesson": "ΦΙΛ",
                     "day": 2,
                     "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΛΓ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 2,
                     "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΛΓ",
+                    "day": 2,
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ",
                     "day": 2,
                     "hour": "2",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΧΗΜ",
-                    "day": 2,
-                    "hour": "4",
                     "double": "0"
                 },
                 {
@@ -1839,7 +1911,7 @@
                 {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 2,
-                    "hour": "3",
+                    "hour": "7",
                     "double": "0"
                 }
             ],
@@ -1847,51 +1919,51 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 3,
-                    "hour": "5",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΙΛ",
+                    "lesson": "ΙΣΤ",
                     "day": 3,
-                    "hour": "1",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 3,
-                    "hour": "3",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ",
                     "day": 3,
-                    "hour": "6",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
                     "lesson": "ΠΛΗΡ",
                     "day": 3,
-                    "hour": "2",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
             "4": [
                 {
-                    "lesson": "ΘΡΗΣ",
+                    "lesson": "ΙΣΤ",
                     "day": 4,
-                    "hour": "3",
+                    "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 4,
+                    "hour": "7",
                     "double": "0"
                 },
                 {
                     "lesson": "ΑΛΓ",
                     "day": 4,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΧΗΜ",
-                    "day": 4,
-                    "hour": "4",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
@@ -1901,9 +1973,15 @@
                     "double": "0"
                 },
                 {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 4,
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΠΛΗΡ",
                     "day": 4,
-                    "hour": "6",
+                    "hour": "5",
                     "double": "0"
                 }
             ]
@@ -1915,13 +1993,7 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 0,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ ΑΓ",
-                    "day": 0,
-                    "hour": "6",
+                    "hour": "4",
                     "double": "0"
                 }
             ],
@@ -1937,13 +2009,25 @@
                     "day": 1,
                     "hour": "6",
                     "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ ΑΓ",
+                    "day": 1,
+                    "hour": "3",
+                    "double": "0"
                 }
             ],
             "2": [
                 {
+                    "lesson": "ΘΡΗΣ",
+                    "day": 2,
+                    "hour": "7",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΓΛΩΣ",
                     "day": 2,
-                    "hour": "1",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
@@ -1968,12 +2052,6 @@
                 }
             ],
             "4": [
-                {
-                    "lesson": "ΘΡΗΣ",
-                    "day": 4,
-                    "hour": "6",
-                    "double": "0"
-                },
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 4,
@@ -1995,21 +2073,27 @@
                 {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "4",
                     "double": "0"
                 }
             ],
             "1": [
                 {
-                    "lesson": "ΓΛΩΣ",
+                    "lesson": "ΘΡΗΣ",
                     "day": 1,
                     "hour": "5",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 1,
+                    "hour": "3",
                     "double": "0"
                 }
             ],
             "2": [
                 {
-                    "lesson": "ΘΡΗΣ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 2,
                     "hour": "6",
                     "double": "0"
@@ -2017,7 +2101,7 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 2,
-                    "hour": "1",
+                    "hour": "7",
                     "double": "0"
                 },
                 {
@@ -2035,7 +2119,7 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΛΩΣ",
+                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 3,
                     "hour": "3",
                     "double": "0"
@@ -2044,12 +2128,6 @@
             "4": [
                 {
                     "lesson": "ΓΛΩΣ",
-                    "day": 4,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 4,
                     "hour": "2",
                     "double": "0"
@@ -2061,15 +2139,21 @@
         "Γ3": {
             "0": [
                 {
-                    "lesson": "ΓΛΩΣ",
+                    "lesson": "ΘΡΗΣ",
                     "day": 0,
                     "hour": "6",
                     "double": "0"
                 },
                 {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 0,
+                    "hour": "7",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΑΓΓΛ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "4",
                     "double": "0"
                 }
             ],
@@ -2077,31 +2161,25 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 1,
-                    "hour": "5",
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΓΛΩΣ",
+                    "day": 1,
+                    "hour": "6",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 1,
-                    "hour": "6",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
             "2": [
                 {
-                    "lesson": "ΘΡΗΣ",
-                    "day": 2,
-                    "hour": "7",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΓΛΩΣ",
-                    "day": 2,
-                    "hour": "6",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΓΓΛ",
                     "day": 2,
                     "hour": "4",
                     "double": "0"
@@ -2109,7 +2187,7 @@
                 {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 2,
-                    "hour": "1",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
@@ -2117,13 +2195,13 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 3,
-                    "hour": "2",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΓΛΩΣ",
+                    "lesson": "ΑΓΓΛ",
                     "day": 3,
-                    "hour": "3",
+                    "hour": "2",
                     "double": "0"
                 }
             ],
@@ -2131,13 +2209,13 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 4,
-                    "hour": "6",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 4,
-                    "hour": "2",
+                    "hour": "6",
                     "double": "0"
                 }
             ]
@@ -2149,23 +2227,23 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 0,
-                    "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΓΛΩΣ",
-                    "day": 0,
-                    "hour": "6",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 0,
-                    "hour": "7",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
             "1": [
+                {
+                    "lesson": "ΘΡΗΣ",
+                    "day": 1,
+                    "hour": "6",
+                    "double": "0"
+                },
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 1,
@@ -2175,25 +2253,19 @@
                 {
                     "lesson": "ΑΓΓΛ",
                     "day": 1,
-                    "hour": "6",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
             "2": [
                 {
-                    "lesson": "ΘΡΗΣ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 2,
                     "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΓΛΩΣ",
-                    "day": 2,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 2,
                     "hour": "6",
                     "double": "0"
@@ -2221,7 +2293,7 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 4,
                     "hour": "2",
                     "double": "0"
@@ -2233,15 +2305,21 @@
         "Γ5": {
             "0": [
                 {
+                    "lesson": "ΘΡΗΣ",
+                    "day": 0,
+                    "hour": "4",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΓΛΩΣ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 0,
-                    "hour": "6",
+                    "hour": "7",
                     "double": "0"
                 }
             ],
@@ -2249,13 +2327,13 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 1,
-                    "hour": "6",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΑΓΓΛ",
+                    "lesson": "ΦΥΣ ΑΓ",
                     "day": 1,
-                    "hour": "5",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
@@ -2263,25 +2341,13 @@
                 {
                     "lesson": "ΓΛΩΣ",
                     "day": 2,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΓΛΩΣ",
-                    "day": 2,
                     "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΓΓΛ",
-                    "day": 2,
-                    "hour": "6",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ ΑΓ",
                     "day": 2,
-                    "hour": "7",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
@@ -2293,7 +2359,7 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΦΥΣ ΑΓ",
+                    "lesson": "ΓΛΩΣ",
                     "day": 3,
                     "hour": "3",
                     "double": "0"
@@ -2301,15 +2367,15 @@
             ],
             "4": [
                 {
-                    "lesson": "ΘΡΗΣ",
-                    "day": 4,
-                    "hour": "2",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΓΛΩΣ",
                     "day": 4,
                     "hour": "6",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΑΓΓΛ",
+                    "day": 4,
+                    "hour": "2",
                     "double": "0"
                 }
             ]
@@ -2321,12 +2387,6 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 0,
-                    "hour": "4",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΙΣΤ",
-                    "day": 0,
                     "hour": "1",
                     "double": "0"
                 },
@@ -2334,12 +2394,12 @@
                     "lesson": "ΦΥΣ",
                     "day": 0,
                     "hour": "2",
-                    "double": "0"
+                    "double": "1"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 0,
-                    "hour": "3",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -2347,19 +2407,19 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 1,
-                    "hour": "1",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ",
                     "day": 1,
-                    "hour": "3",
-                    "double": "1"
+                    "hour": "4",
+                    "double": "0"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 1,
-                    "hour": "2",
+                    "hour": "1",
                     "double": "0"
                 }
             ],
@@ -2367,19 +2427,25 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 2,
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΙΣΤ",
+                    "day": 2,
                     "hour": "5",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ",
                     "day": 2,
-                    "hour": "2",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 2,
-                    "hour": "3",
+                    "hour": "1",
                     "double": "0"
                 }
             ],
@@ -2391,21 +2457,21 @@
                     "double": "1"
                 },
                 {
+                    "lesson": "ΙΣΤ",
+                    "day": 3,
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΦΥΣ",
                     "day": 3,
                     "hour": "4",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΧΗΜ",
+                    "lesson": "ΚΕΝΟ",
                     "day": 3,
                     "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΧΗΜ",
-                    "day": 3,
-                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -2414,12 +2480,6 @@
                     "lesson": "ΜΑΘ",
                     "day": 4,
                     "hour": "5",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΙΣΤ",
-                    "day": 4,
-                    "hour": "4",
                     "double": "0"
                 },
                 {
@@ -2432,6 +2492,12 @@
                     "lesson": "ΧΗΜ",
                     "day": 4,
                     "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΧΗΜ",
+                    "day": 4,
+                    "hour": "4",
                     "double": "0"
                 }
             ]
@@ -2441,27 +2507,21 @@
         "Γθετ2": {
             "0": [
                 {
-                    "lesson": "ΙΣΤ",
-                    "day": 0,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΜΑΘ",
                     "day": 0,
-                    "hour": "3",
-                    "double": "0"
+                    "hour": "1",
+                    "double": "1"
                 },
                 {
                     "lesson": "ΦΥΣ",
                     "day": 0,
-                    "hour": "2",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 0,
-                    "hour": "4",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
@@ -2469,39 +2529,45 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 1,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ",
                     "day": 1,
-                    "hour": "1",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 1,
                     "hour": "2",
-                    "double": "1"
+                    "double": "0"
                 }
             ],
             "2": [
                 {
-                    "lesson": "ΜΑΘ",
-                    "day": 2,
-                    "hour": "2",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΙΣΤ",
                     "day": 2,
                     "hour": "5",
                     "double": "0"
                 },
                 {
-                    "lesson": "ΧΗΜ",
+                    "lesson": "ΜΑΘ",
                     "day": 2,
                     "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΦΥΣ",
+                    "day": 2,
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΧΗΜ",
+                    "day": 2,
+                    "hour": "2",
                     "double": "0"
                 }
             ],
@@ -2509,25 +2575,31 @@
                 {
                     "lesson": "ΙΣΤ",
                     "day": 3,
-                    "hour": "6",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΜΑΘ",
                     "day": 3,
-                    "hour": "4",
-                    "double": "1"
+                    "hour": "6",
+                    "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ",
                     "day": 3,
-                    "hour": "7",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 3,
-                    "hour": "1",
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΧΗΜ",
+                    "day": 3,
+                    "hour": "7",
                     "double": "0"
                 }
             ],
@@ -2535,25 +2607,19 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 4,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ",
                     "day": 4,
                     "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΦΥΣ",
-                    "day": 4,
-                    "hour": "5",
-                    "double": "0"
+                    "double": "1"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 4,
-                    "hour": "1",
+                    "hour": "5",
                     "double": "0"
                 }
             ]
@@ -2572,18 +2638,12 @@
                     "lesson": "ΟΙΚ",
                     "day": 0,
                     "hour": "1",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΟΙΚ",
-                    "day": 0,
-                    "hour": "4",
-                    "double": "0"
+                    "double": "1"
                 },
                 {
                     "lesson": "ΠΛΗΡ",
                     "day": 0,
-                    "hour": "2",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -2597,8 +2657,8 @@
                 {
                     "lesson": "ΠΛΗΡ",
                     "day": 1,
-                    "hour": "3",
-                    "double": "1"
+                    "hour": "4",
+                    "double": "0"
                 }
             ],
             "2": [
@@ -2611,14 +2671,14 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 2,
-                    "hour": "2",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
                     "lesson": "ΠΛΗΡ",
                     "day": 2,
-                    "hour": "3",
-                    "double": "0"
+                    "hour": "1",
+                    "double": "1"
                 }
             ],
             "3": [
@@ -2631,19 +2691,25 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 3,
-                    "hour": "7",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΟΙΚ",
                     "day": 3,
                     "hour": "5",
-                    "double": "1"
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΟΙΚ",
+                    "day": 3,
+                    "hour": "7",
+                    "double": "0"
                 },
                 {
                     "lesson": "ΠΛΗΡ",
                     "day": 3,
-                    "hour": "1",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
@@ -2651,13 +2717,13 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 4,
-                    "hour": "1",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
                     "lesson": "ΟΙΚ",
                     "day": 4,
-                    "hour": "3",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
@@ -2681,19 +2747,25 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 0,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΟΙΚ",
                     "day": 0,
-                    "hour": "2",
-                    "double": "1"
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΟΙΚ",
+                    "day": 0,
+                    "hour": "5",
+                    "double": "0"
                 },
                 {
                     "lesson": "ΠΛΗΡ",
                     "day": 0,
-                    "hour": "1",
+                    "hour": "2",
                     "double": "0"
                 }
             ],
@@ -2701,33 +2773,45 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 1,
-                    "hour": "3",
-                    "double": "1"
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΜΑΘ",
+                    "day": 1,
+                    "hour": "4",
+                    "double": "0"
                 },
                 {
                     "lesson": "ΠΛΗΡ",
                     "day": 1,
-                    "hour": "1",
-                    "double": "1"
+                    "hour": "2",
+                    "double": "0"
                 }
             ],
             "2": [
                 {
                     "lesson": "ΙΣΤ",
                     "day": 2,
-                    "hour": "3",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
                     "lesson": "ΜΑΘ",
                     "day": 2,
-                    "hour": "5",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΠΛΗΡ",
                     "day": 2,
-                    "hour": "2",
+                    "hour": "3",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΠΛΗΡ",
+                    "day": 2,
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -2741,7 +2825,7 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 3,
-                    "hour": "6",
+                    "hour": "7",
                     "double": "0"
                 },
                 {
@@ -2753,7 +2837,7 @@
                 {
                     "lesson": "ΟΙΚ",
                     "day": 3,
-                    "hour": "7",
+                    "hour": "6",
                     "double": "0"
                 },
                 {
@@ -2767,20 +2851,14 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 4,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΟΙΚ",
-                    "day": 4,
                     "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΟΙΚ",
                     "day": 4,
-                    "hour": "4",
-                    "double": "0"
+                    "hour": "3",
+                    "double": "1"
                 },
                 {
                     "lesson": "ΠΛΗΡ",
@@ -2795,6 +2873,12 @@
         "Γυγείας": {
             "0": [
                 {
+                    "lesson": "ΙΣΤ",
+                    "day": 0,
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΦΥΣ",
                     "day": 0,
                     "hour": "3",
@@ -2803,13 +2887,13 @@
                 {
                     "lesson": "ΧΗΜ",
                     "day": 0,
-                    "hour": "1",
-                    "double": "1"
+                    "hour": "2",
+                    "double": "0"
                 },
                 {
                     "lesson": "ΒΙΟ",
                     "day": 0,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 }
             ],
@@ -2817,8 +2901,8 @@
                 {
                     "lesson": "ΦΥΣ",
                     "day": 1,
-                    "hour": "2",
-                    "double": "1"
+                    "hour": "1",
+                    "double": "0"
                 },
                 {
                     "lesson": "ΧΗΜ",
@@ -2829,21 +2913,27 @@
                 {
                     "lesson": "ΒΙΟ",
                     "day": 1,
-                    "hour": "1",
+                    "hour": "2",
                     "double": "0"
                 }
             ],
             "2": [
                 {
+                    "lesson": "ΙΣΤ",
+                    "day": 2,
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
                     "lesson": "ΦΥΣ",
                     "day": 2,
-                    "hour": "3",
+                    "hour": "2",
                     "double": "0"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 2,
-                    "hour": "2",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
@@ -2855,21 +2945,21 @@
             ],
             "3": [
                 {
-                    "lesson": "ΙΣΤ",
-                    "day": 3,
-                    "hour": "1",
-                    "double": "0"
-                },
-                {
                     "lesson": "ΦΥΣ",
                     "day": 3,
-                    "hour": "6",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΧΗΜ",
                     "day": 3,
                     "hour": "4",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΧΗΜ",
+                    "day": 3,
+                    "hour": "6",
                     "double": "0"
                 },
                 {
@@ -2887,15 +2977,15 @@
             ],
             "4": [
                 {
-                    "lesson": "ΙΣΤ",
+                    "lesson": "ΦΥΣ",
                     "day": 4,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΦΥΣ",
                     "day": 4,
-                    "hour": "1",
+                    "hour": "5",
                     "double": "0"
                 },
                 {
@@ -2907,7 +2997,7 @@
                 {
                     "lesson": "ΒΙΟ",
                     "day": 4,
-                    "hour": "5",
+                    "hour": "4",
                     "double": "0"
                 }
             ]
@@ -2919,13 +3009,7 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 0,
-                    "hour": "2",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΑΡΧ",
-                    "day": 0,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
@@ -2937,7 +3021,13 @@
                 {
                     "lesson": "ΙΣΤ",
                     "day": 0,
-                    "hour": "1",
+                    "hour": "2",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΜΑΘ",
+                    "day": 0,
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -2945,25 +3035,19 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 1,
-                    "hour": "2",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΛΑΤ",
                     "day": 1,
-                    "hour": "4",
+                    "hour": "1",
                     "double": "0"
                 },
                 {
                     "lesson": "ΙΣΤ",
                     "day": 1,
-                    "hour": "3",
-                    "double": "0"
-                },
-                {
-                    "lesson": "ΜΑΘ",
-                    "day": 1,
-                    "hour": "1",
+                    "hour": "2",
                     "double": "0"
                 }
             ],
@@ -2971,13 +3055,19 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 2,
-                    "hour": "2",
+                    "hour": "3",
                     "double": "0"
                 },
                 {
                     "lesson": "ΛΑΤ",
                     "day": 2,
-                    "hour": "3",
+                    "hour": "1",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΙΣΤ",
+                    "day": 2,
+                    "hour": "2",
                     "double": "0"
                 },
                 {
@@ -2991,25 +3081,31 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 3,
-                    "hour": "1",
+                    "hour": "4",
                     "double": "0"
                 },
                 {
                     "lesson": "ΛΑΤ",
                     "day": 3,
-                    "hour": "6",
+                    "hour": "5",
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΛΑΤ",
+                    "day": 3,
+                    "hour": "7",
                     "double": "0"
                 },
                 {
                     "lesson": "ΙΣΤ",
                     "day": 3,
-                    "hour": "4",
-                    "double": "1"
+                    "hour": "1",
+                    "double": "0"
                 },
                 {
                     "lesson": "ΜΑΘ",
                     "day": 3,
-                    "hour": "7",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
@@ -3021,15 +3117,21 @@
                     "double": "0"
                 },
                 {
-                    "lesson": "ΛΑΤ",
+                    "lesson": "ΑΡΧ",
                     "day": 4,
                     "hour": "3",
-                    "double": "1"
+                    "double": "0"
+                },
+                {
+                    "lesson": "ΛΑΤ",
+                    "day": 4,
+                    "hour": "5",
+                    "double": "0"
                 },
                 {
                     "lesson": "ΙΣΤ",
                     "day": 4,
-                    "hour": "5",
+                    "hour": "4",
                     "double": "0"
                 }
             ]
@@ -3039,9 +3141,9 @@
         "Βθετ1": {
             "0": [
                 {
-                    "lesson": "ΜΑΘ",
+                    "lesson": "ΦΥΣ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
@@ -3049,15 +3151,15 @@
                 {
                     "lesson": "ΦΥΣ",
                     "day": 1,
-                    "hour": "6",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
             "2": [
                 {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΜΑΘ",
                     "day": 2,
-                    "hour": "7",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
@@ -3065,7 +3167,7 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 3,
-                    "hour": "4",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -3073,7 +3175,7 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 4,
-                    "hour": "2",
+                    "hour": "4",
                     "double": "0"
                 }
             ]
@@ -3085,7 +3187,7 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
@@ -3093,7 +3195,7 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 1,
-                    "hour": "6",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -3101,7 +3203,7 @@
                 {
                     "lesson": "ΦΥΣ",
                     "day": 2,
-                    "hour": "7",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
@@ -3109,7 +3211,7 @@
                 {
                     "lesson": "ΦΥΣ",
                     "day": 3,
-                    "hour": "4",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -3117,7 +3219,7 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 4,
-                    "hour": "2",
+                    "hour": "4",
                     "double": "0"
                 }
             ]
@@ -3127,9 +3229,9 @@
         "Βθετ3": {
             "0": [
                 {
-                    "lesson": "ΜΑΘ",
+                    "lesson": "ΦΥΣ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
@@ -3137,7 +3239,7 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 1,
-                    "hour": "6",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -3145,15 +3247,15 @@
                 {
                     "lesson": "ΦΥΣ",
                     "day": 2,
-                    "hour": "7",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
             "3": [
                 {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΜΑΘ",
                     "day": 3,
-                    "hour": "4",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -3161,7 +3263,7 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 4,
-                    "hour": "2",
+                    "hour": "4",
                     "double": "0"
                 }
             ]
@@ -3171,17 +3273,17 @@
         "Βθετ4": {
             "0": [
                 {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΜΑΘ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
             "1": [
                 {
-                    "lesson": "ΜΑΘ",
+                    "lesson": "ΦΥΣ",
                     "day": 1,
-                    "hour": "6",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -3189,23 +3291,23 @@
                 {
                     "lesson": "ΜΑΘ",
                     "day": 2,
-                    "hour": "7",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
             "3": [
                 {
-                    "lesson": "ΜΑΘ",
+                    "lesson": "ΦΥΣ",
                     "day": 3,
-                    "hour": "4",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
             "4": [
                 {
-                    "lesson": "ΦΥΣ",
+                    "lesson": "ΜΑΘ",
                     "day": 4,
-                    "hour": "2",
+                    "hour": "4",
                     "double": "0"
                 }
             ]
@@ -3215,9 +3317,9 @@
         "Βανθρ1": {
             "0": [
                 {
-                    "lesson": "ΑΡΧ",
+                    "lesson": "ΛΑΤ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
@@ -3225,31 +3327,31 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 1,
-                    "hour": "6",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
             "2": [
                 {
-                    "lesson": "ΑΡΧ",
+                    "lesson": "ΛΑΤ",
                     "day": 2,
-                    "hour": "7",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
             "3": [
                 {
-                    "lesson": "ΛΑΤ",
+                    "lesson": "ΑΡΧ",
                     "day": 3,
-                    "hour": "4",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
             "4": [
                 {
-                    "lesson": "ΛΑΤ",
+                    "lesson": "ΑΡΧ",
                     "day": 4,
-                    "hour": "2",
+                    "hour": "4",
                     "double": "0"
                 }
             ]
@@ -3261,7 +3363,7 @@
                 {
                     "lesson": "ΛΑΤ",
                     "day": 0,
-                    "hour": "5",
+                    "hour": "6",
                     "double": "0"
                 }
             ],
@@ -3269,7 +3371,7 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 1,
-                    "hour": "6",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -3277,7 +3379,7 @@
                 {
                     "lesson": "ΛΑΤ",
                     "day": 2,
-                    "hour": "7",
+                    "hour": "3",
                     "double": "0"
                 }
             ],
@@ -3285,7 +3387,7 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 3,
-                    "hour": "4",
+                    "hour": "5",
                     "double": "0"
                 }
             ],
@@ -3293,7 +3395,7 @@
                 {
                     "lesson": "ΑΡΧ",
                     "day": 4,
-                    "hour": "2",
+                    "hour": "4",
                     "double": "0"
                 }
             ]
