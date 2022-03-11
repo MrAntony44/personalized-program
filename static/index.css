@@ -146,3 +146,9 @@ select {
     border: none;
     box-shadow: 0 0 50px rgba(180, 180, 180, 1);
 }
+
+td{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}

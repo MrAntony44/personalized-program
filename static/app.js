@@ -1,4 +1,5 @@
 function change(){
+  checkForExistingCookies()
     let res = document.getElementById("class")
     let ls = document.getElementById("classls")
     let specialB = document.getElementById("specialB")
@@ -138,13 +139,39 @@ function change(){
 
     if(res == "Α"){
       window.location.href = "/find?class=" + res + ls + "&special=none"
+      writeCookie(res+ls, "none")
     }else if(res == "Β"){
       let direct = document.getElementById("specialB").value
       window.location.href = "/find?class=" + res + ls + "&special=" + direct
+      writeCookie(res+ls, direct)
     }else if(res == "Γ"){
       let direct = document.getElementById("specialC").value
       window.location.href = "/find?class=" + res + ls + "&special=" + direct
+      writeCookie(res+ls, direct)
     }
+  }
+
+  function writeCookie(cl, special){
+    let classCook = "class=" + cl + '; path=/; max-age=31536000'
+    let specialCook = "special=" + special + '; path=/; max-age=31536000'
+    document.cookie = classCook
+    document.cookie = specialCook
+  }
+
+  function checkForExistingCookies(){
+    let cookiePath = document.cookie
+    let classAct = cookiePath.substring(6).substring(0,2)
+    let specialAct = cookiePath.substring(18)
+    if(classAct == ""){
+      return;
+    }
+    document.getElementById("tableCook").style.display = "block"
+    
+    let fillArea = document.getElementById("cookieData")
+    console.log(fillArea)
+    fillArea.setAttribute("href", "/find?class=" + classAct + "&special="+ specialAct)
+    fillArea.innerHTML = classAct + ' ' + specialAct
+
   }
 
   function reset(id){
