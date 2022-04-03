@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MrAntony44/personalized-program#readme",
   "dependencies": {
-    "exceljs": "^4.3.0"
+    "exceljs": "^4.3.0",
+    "minimist": "^1.2.6"
   }
 }
